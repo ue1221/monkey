@@ -14,6 +14,7 @@ const (
 	IF       = "IF"
 	ELSE     = "ELSE"
 	RETURN   = "RETURN"
+	MACRO    = "MACRO"
 
 	ASSIGN   = "="
 	PLUS     = "+"
@@ -47,6 +48,7 @@ var keywords = map[string]TokenType{
 	"if":     IF,
 	"else":   ELSE,
 	"return": RETURN,
+	"macro":  MACRO,
 }
 
 type TokenType string
